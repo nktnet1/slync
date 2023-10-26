@@ -35,7 +35,6 @@
     "loop",
     "atomic",
     "atommic-sleep",
-    "synchronous",
     "comp1531"
   ],
   "devDependencies": {
