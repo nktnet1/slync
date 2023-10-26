@@ -75,6 +75,11 @@ npm install slync
 Try with [Replit](https://replit.com/@nktnet1/slync-example#index.js).
 
 ```javascript
+slync(ms) // where ms is the number of milliseconds
+```
+
+Example usage of synchronously sleeping for 2 seconds:
+```javascript
 // import slync from 'slync';
 const slync = require('slync');
 
@@ -82,11 +87,11 @@ console.log(`0. Current time: ${new Date()}`);
 
 setTimeout(() => {
   console.log(`2. This prints second because slync blocks: ${new Date()}`);
-}, 500);
+}, 100);
 
-slync(1000);
+slync(2000);
 
-console.log(`1. This prints first after 1000 milliseconds: ${new Date()}`);
+console.log(`1. This prints first after 2000 milliseconds: ${new Date()}`);
 ```
 
 
