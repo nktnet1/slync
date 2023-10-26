@@ -60,15 +60,9 @@ modelled after [atomic-sleep](https://github.com/davidmarkclements/atomic-sleep)
 
 - [1. Installation](#1-installation)
 - [2. Usage](#2-usage)
-    - [2.1. id](#21-id)
-    - [2.2. options](#22-options)
-    - [2.3. return](#23-return)
 - [3. License](#3-license)
 - [4. Limitations](#4-limitations)
 - [5. Caveats](#5-caveats)
-    - [5.1. Idea](#51-idea)
-    - [5.2. Discovery](#52-approach)
-    - [5.3. Result](#53-result)
 
 ## 1. Installation
 
@@ -139,8 +133,8 @@ There are currently no known limitations.
 ## 5. Caveats
 
 **slync** was modelled after [atomic-sleep](https://github.com/davidmarkclements/atomic-sleep), with some minor differences:
-- slync is written in [TypeScript](https://www.typescriptlang.org)
-- slync only accepts 'number' for the ms parameter, [atomic-sleep](https://github.com/davidmarkclements/atomic-sleep) also accepts 'bigint'
+- **slync** is written in [TypeScript](https://www.typescriptlang.org)
+- **slync** only accepts 'number' for the ms parameter whereas [atomic-sleep](https://github.com/davidmarkclements/atomic-sleep) also accepts 'bigint'
 - **slync** will determine which sleep method to use (atomic vs naive) at runtime
 
 For synchronous non-blocking sleep, look into [deasync](https://github.com/abbr/deasync).

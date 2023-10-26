@@ -2,12 +2,12 @@
   "name": "slync",
   "author": "Khiet Tam Nguyen",
   "license": "MIT",
-  "description": "Dependency-less event-loop blocking sleep modelled after atomic-sleep",
+  "description": "0 dependencise event-loop blocking synchronus sleep modelled after atomic-sleep.",
   "repository": {
     "type": "git",
     "url": "https://github.com/nktnet1/slync"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "files": [
     "dist"
   ],
@@ -40,9 +40,9 @@
   ],
   "devDependencies": {
     "@types/jest": "^29.5.6",
-    "@types/node": "^20.8.7",
-    "@typescript-eslint/eslint-plugin": "^6.8.0",
-    "@typescript-eslint/parser": "^6.8.0",
+    "@types/node": "^20.8.9",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",
     "eslint-plugin-jest": "^27.4.3",
     "jest": "^29.7.0",
