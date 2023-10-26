@@ -82,13 +82,15 @@ Try with [Replit](https://replit.com/@nktnet1/slync-example#index.js).
 // import slync from 'slync';
 const slync = require('slync');
 
+console.log(`0. Current time: ${new Date()}`);
+
 setTimeout(() => {
-  console.log('This will print after 500 milliseconds');
+  console.log(`2. This prints second because slync blocks: ${new Date()}`);
 }, 500);
 
 slync(1000);
 
-console.log('This will print after 1000 milliseconds!');
+console.log(`1. This prints first after 1000 milliseconds: ${new Date()}`);
 ```
 
 
