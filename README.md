@@ -2,11 +2,11 @@
 
 # [![Slync](logo.svg)](https://github.com/nktnet1/slync)
 
-<!-- [![pipeline](https://github.com/nktnet1/slync/actions/workflows/pipeline.yml/badge.svg)](https://github.com/nktnet1/slync/actions/workflows/pipeline.yml)
+[![pipeline](https://github.com/nktnet1/slync/actions/workflows/pipeline.yml/badge.svg)](https://github.com/nktnet1/slync/actions/workflows/pipeline.yml)
 &nbsp;
 [![codecov](https://codecov.io/gh/nktnet1/slync/branch/main/graph/badge.svg?token=RAC7SKJTGU)](https://codecov.io/gh/nktnet1/slync)
 &nbsp;
-[![Maintainability](https://api.codeclimate.com/v1/badges/aaae5cf33d58299ed722/maintainability)](https://codeclimate.com/github/nktnet1/slync/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1ae83ff4c0c0c8fc4a17/maintainability)](https://codeclimate.com/github/nktnet1/slync/maintainability)
 &nbsp;
 [![Snyk Security](https://snyk.io/test/github/nktnet1/slync/badge.svg)](https://snyk.io/test/github/nktnet1/slync)
 &nbsp;
@@ -18,7 +18,7 @@
 &nbsp;
 [![Depfu Dependencies](https://badges.depfu.com/badges/6c4074c4d23ad57ee2bfd9ff90456090/overview.svg)](https://depfu.com/github/nktnet1/slync?project_id=39032)
 &nbsp;
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnktnet1%2Fslync.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnktnet1%2Fslync?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnktnet1%2Fslync.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnktnet1%2Fslync?ref=badge_shield&issueType=license)
 &nbsp;
 [![NPM License](https://img.shields.io/npm/l/slync)](https://opensource.org/license/mit/)
 &nbsp;
@@ -26,11 +26,11 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nktnet1_slync&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=nktnet1_slync)
 &nbsp;
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/65161ae4d1c646ed83c9ef47b0a11473)](https://app.codacy.com/gh/nktnet1/slync/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/af0385991c474ca692e8c7f85321e26a)](https://app.codacy.com/gh/nktnet1/slync/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 &nbsp;
 [![DeepSource](https://app.deepsource.com/gh/nktnet1/slync.svg/?label=active+issues&show_trend=true&token=r1frerF1-N2Mhrc7ZXIC1uNa)](https://app.deepsource.com/gh/nktnet1/slync/)
 &nbsp;
-[![codebeat badge](https://codebeat.co/badges/acc44573-9938-4a14-bc41-7eb6a58dffbb)](https://codebeat.co/projects/github-com-nktnet1-slync-main)
+[![codebeat badge](https://codebeat.co/badges/5f4be12d-b0fd-4aab-92e9-5d70999ee489)](https://codebeat.co/projects/github-com-nktnet1-slync-main)
 &nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/nktnet1/slync.svg?style=social)](https://github.com/nktnet1/slync/stargazers)
 
@@ -42,15 +42,17 @@
 &nbsp;
 [![Downloads Weekly](https://badgen.net/npm/dw/slync)](https://moiva.io/?npm=slync)
 &nbsp;
-[![Downloads Daily](https://badgen.net/npm/dd/slync)](https://moiva.io/?npm=slync) -->
+[![Downloads Daily](https://badgen.net/npm/dd/slync)](https://moiva.io/?npm=slync) 
 
-<!-- --- -->
+---
 
 0 dependencies event-loop blocking synchronous sleep
 
 sleep + sync = slync
 
 modelled after [atomic-sleep](https://github.com/davidmarkclements/atomic-sleep)
+
+[![Try with Replit](https://replit.com/badge?caption=Try%20with%20Replit)](https://replit.com/@nktnet1/slync-example#index.js)
 
 </div>
 
@@ -125,6 +127,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
 ```
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnktnet1%2Fslync.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnktnet1%2Fslync?ref=badge_large&issueType=license)
 
 </details>
 
