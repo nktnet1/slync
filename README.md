@@ -86,12 +86,12 @@ const slync = require('slync');
 console.log(`0. Current time: ${new Date()}`);
 
 setTimeout(() => {
-  console.log(`2. This prints second because slync blocks: ${new Date()}`);
+  console.log(`2. Prints second because slync blocks: ${new Date()}`);
 }, 100);
 
 slync(2000);
 
-console.log(`1. This prints first after 2000 milliseconds: ${new Date()}`);
+console.log(`1. Prints first after 2000 milliseconds: ${new Date()}`);
 ```
 
 
