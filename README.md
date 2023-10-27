@@ -137,7 +137,7 @@ There are currently no known limitations.
 
 ## 5. Caveats
 
-**slync** was modelled after [atomic-sleep](https://github.com/davidmarkclements/atomic-sleep), with some minor differences:
+**slync** is modelled after [atomic-sleep](https://github.com/davidmarkclements/atomic-sleep), with some minor differences:
 - **slync** is written in [TypeScript](https://www.typescriptlang.org)
 - **slync** only accepts 'number' for the ms parameter whereas [atomic-sleep](https://github.com/davidmarkclements/atomic-sleep) also accepts 'bigint'
 - **slync** will determine which sleep method to use (atomic vs naive) at runtime
