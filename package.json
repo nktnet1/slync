@@ -34,7 +34,7 @@
     "event",
     "loop",
     "atomic",
-    "atommic-sleep",
+    "atomic-sleep",
     "comp1531"
   ],
   "devDependencies": {
