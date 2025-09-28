@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'vitest';
 import slync from '../src';
 
 const testif = (condition: boolean) => condition ? test : test.skip;
