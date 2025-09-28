@@ -17,7 +17,9 @@
  */
 const sleepNaive = (ms: number): void => {
   const endTime = Date.now() + ms;
-  while (endTime > Date.now()) { /* sleeping */ }
+  while (endTime > Date.now()) {
+    /* sleeping */
+  }
 };
 
 /**
@@ -40,21 +42,18 @@ const sleepAtomic = (ms: number): void => {
  */
 const slync = (ms: number): void => {
   if (typeof ms !== 'number') {
-    throw new TypeError(
-      `slync: ms is not of type 'number'. Given: ${ms} of type '${typeof ms}'`
-    );
+    throw new TypeError(`slync: ms is not of type 'number'. Given: ${ms} of type '${typeof ms}'`);
   }
 
   if (!(ms >= 0 && ms < Infinity)) {
-    throw new RangeError(
-      `slync: ms must be in the range [0, Infinity). Given: ${ms}`
-    );
+    throw new RangeError(`slync: ms must be in the range [0, Infinity). Given: ${ms}`);
   }
 
-  typeof SharedArrayBuffer !== 'undefined' &&
-  typeof Atomics !== 'undefined'
-    ? sleepAtomic(ms)
-    : sleepNaive(ms);
+  if (typeof SharedArrayBuffer !== 'undefined' && typeof Atomics !== 'undefined') {
+    sleepAtomic(ms);
+  } else {
+    sleepNaive(ms);
+  }
 };
 
 export default slync;
