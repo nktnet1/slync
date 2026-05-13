@@ -30,8 +30,6 @@
 &nbsp;
 [![DeepSource](https://app.deepsource.com/gh/nktnet1/slync.svg/?label=active+issues&show_trend=true&token=r1frerF1-N2Mhrc7ZXIC1uNa)](https://app.deepsource.com/gh/nktnet1/slync/)
 &nbsp;
-[![codebeat badge](https://codebeat.co/badges/5f4be12d-b0fd-4aab-92e9-5d70999ee489)](https://codebeat.co/projects/github-com-nktnet1-slync-main)
-&nbsp;
 [![GitHub stars](https://img.shields.io/github/stars/nktnet1/slync.svg?style=social)](https://github.com/nktnet1/slync/stargazers)
 
 [![Downloads Total](https://badgen.net/npm/dt/slync)](https://moiva.io/?npm=slync)
@@ -42,7 +40,7 @@
 &nbsp;
 [![Downloads Weekly](https://badgen.net/npm/dw/slync)](https://moiva.io/?npm=slync)
 &nbsp;
-[![Downloads Daily](https://badgen.net/npm/dd/slync)](https://moiva.io/?npm=slync) 
+[![Downloads Daily](https://badgen.net/npm/dd/slync)](https://moiva.io/?npm=slync)
 
 ---
 
