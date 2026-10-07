@@ -1,3 +1,3 @@
-import slync from './sleep';
+import slync from "./sleep";
 
 export default slync;

@@ -16,9 +16,10 @@
   "scripts": {
     "test": "vitest run",
     "tc": "vitest run --coverage",
-    "lint": "eslint './**/*.ts'",
-    "lf": "eslint --fix './**/*.ts'",
-    "tsc": "tsc --noEmit",
+    "lint": "biome lint",
+    "format": "biome format",
+    "check": "biome check",
+    "typecheck": "tsc --noEmit",
     "build": "tsdown",
     "prepublishOnly": "npm run build"
   },
@@ -36,25 +37,14 @@
     "comp1531"
   ],
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.5",
-    "@eslint/js": "^10.0.1",
+    "@biomejs/biome": "2.5.15",
     "@types/node": "^25.7.0",
-    "@typescript-eslint/eslint-plugin": "^8.59.3",
-    "@typescript-eslint/parser": "^8.59.3",
     "@vitest/coverage-v8": "4.1.6",
-    "eslint": "^10.3.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-import-resolver-typescript": "^4.4.4",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.6.0",
-    "ts-node": "^10.9.2",
     "tsdown": "^0.22.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.6"
   },
-  "packageManager": "pnpm@11.1.1",
+  "packageManager": "pnpm@12.9.1",
   "types": "./dist/index.d.cts",
   "exports": {
     ".": {

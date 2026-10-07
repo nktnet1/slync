@@ -41,15 +41,22 @@ const sleepAtomic = (ms: number): void => {
  * @throws {RangeError} If `ms` is not strictly above 0 and below Infinity.
  */
 const slync = (ms: number): void => {
-  if (typeof ms !== 'number') {
-    throw new TypeError(`slync: ms is not of type 'number'. Given: ${ms} of type '${typeof ms}'`);
+  if (typeof ms !== "number") {
+    throw new TypeError(
+      `slync: ms is not of type 'number'. Given: ${ms} of type '${typeof ms}'`,
+    );
   }
 
   if (!(ms >= 0 && ms < Infinity)) {
-    throw new RangeError(`slync: ms must be in the range [0, Infinity). Given: ${ms}`);
+    throw new RangeError(
+      `slync: ms must be in the range [0, Infinity). Given: ${ms}`,
+    );
   }
 
-  if (typeof SharedArrayBuffer !== 'undefined' && typeof Atomics !== 'undefined') {
+  if (
+    typeof SharedArrayBuffer !== "undefined" &&
+    typeof Atomics !== "undefined"
+  ) {
     sleepAtomic(ms);
   } else {
     sleepNaive(ms);
