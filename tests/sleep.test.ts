@@ -41,18 +41,22 @@ describe("slync success cases", () => {
   });
 
   test("sleepNaive when SharedArrayBuffer is not defined", () => {
-    global.SharedArrayBuffer = undefined as any;
+    // @ts-expect-error intentionally disable feature
+    global.SharedArrayBuffer = undefined;
     checkSleep(100);
   });
 
   test("sleepNaive when Atomics is not defined", () => {
-    global.Atomics = undefined as any;
+    // @ts-expect-error intentionally disable feature
+    global.Atomics = undefined;
     checkSleep(100);
   });
 
   test("sleepNaive when both SharedArrayBuffer and Atomics are not defined", () => {
-    global.SharedArrayBuffer = undefined as any;
-    global.Atomics = undefined as any;
+    // @ts-expect-error intentionally disable feature
+    global.SharedArrayBuffer = undefined;
+    // @ts-expect-error intentionally disable feature
+    global.Atomics = undefined;
     checkSleep(100);
   });
 });
